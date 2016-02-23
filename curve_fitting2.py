@@ -50,7 +50,7 @@ def plot_data(csv_file):
 
     dim の数を増やすことで、曲線の波の個数が増えていきます。
     """
-    dim = 10
+    dim = 1
     a, residuals, rank, sv, rcond = sp.polyfit(x, y, dim, full=True)
 
     """
